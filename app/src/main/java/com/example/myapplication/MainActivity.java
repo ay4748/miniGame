@@ -15,7 +15,6 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity implements View.OnLongClickListener {
     Button btnRed, btnBlue;
     int scoreRed = 0,scoreBlue = 0;
-    int i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
